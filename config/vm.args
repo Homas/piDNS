@@ -1,0 +1,12 @@
+## Name of the node
+-sname ${NODE_NAME}
+
+# Enable SSL
+#-proto_dist inet_tls
+#-ssl_dist_optfile "ssl_file@ioc2rpz.conf"
+# or
+#-certfile, -keyfile
+#http://erlang.org/doc/apps/ssl/ssl_distribution.html
+
+## Cookie for distributed erlang
+-setcookie ${piDNSCookie}

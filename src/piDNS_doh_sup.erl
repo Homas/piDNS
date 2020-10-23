@@ -1,0 +1,2 @@
+-module(piDNS_doh_sup).
+-behaviour(supervisor).

@@ -1,0 +1,36 @@
+- Phase 1
+	- [ ] Supervisor of supervisors
+		- [ ] Configuration read/update
+	- [ ] DNS udp/tcp listener
+		- [ ] DNS UDP supervisor
+		- [ ] DNS TCP supervisor
+	- [ ] DoT listener
+		- [ ] DoT supervisor
+	- [ ] DoH listener
+		- [ ] DoH supervisor
+	- [ ] REST listener
+		- [ ] REST supervisor
+	- [ ] DB driver (mnesia, ets)
+		- [ ] DB supervisor
+	- [ ] pureDNS forwarder
+	- [ ] pureDNS resolver (via root)
+	- [ ] DoT forwarder
+	- [ ] DoH forwarder
+	- [ ] Randomize DNS requests to different providers
+	- [ ] Domain stickiness
+	- [ ] Logging in CEF
+
+- Phase 2
+	- [ ] DNS Cache
+	- [ ] DNS performance measure
+	- [ ] ECS randomization
+	- [ ] DNS Cookies
+	
+- Phase 3
+	- [ ] RPZ support
+		- [ ] DNS Notify
+	- [ ] External black/white lists via file/http
+		- [ ] Extended rules
+			- [ ] wildcards in the middle or at the end
+			- [ ] REGEX
+			- [ ] A single record rewrite (do not touch others)

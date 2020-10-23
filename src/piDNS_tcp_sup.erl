@@ -1,0 +1,2 @@
+-module(piDNS_tcp_sup).
+-behaviour(supervisor).
